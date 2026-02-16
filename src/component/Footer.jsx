@@ -1,4 +1,5 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Footer = () => {
     return(
@@ -11,7 +12,10 @@ const Footer = () => {
                 <div>
                     <p>Find us in social media</p>
                     <ul>
-                        <li><a href="#"></a></li>
+                        <li><a href="#"><FontAwesomeIcon icon="fa-brands fa-instagram"/></a></li>
+                        <li><a href="#"><FontAwesomeIcon icon="fa-brands fa-facebook"/></a></li>
+                        <li><a href="#"><FontAwesomeIcon icon="fa-brands fa-twitter"/></a></li>
+                        <li><a href="#"><FontAwesomeIcon icon="fa-brands fa-linkedin"/></a></li>
                     </ul>
                 </div>
                 <div></div>
