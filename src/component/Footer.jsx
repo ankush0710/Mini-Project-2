@@ -9,13 +9,13 @@ const Footer = () => {
                 <div className=''>
                     <img className='w-12 h-12' src="./public/Logo.jpg" alt="Footer_logo" />
                 </div>
-                <div>
-                    <p>Find us in social media</p>
-                    <ul>
-                        <li><a href="#"><FontAwesomeIcon icon="fa-brands fa-instagram"/></a></li>
-                        <li><a href="#"><FontAwesomeIcon icon="fa-brands fa-facebook"/></a></li>
-                        <li><a href="#"><FontAwesomeIcon icon="fa-brands fa-twitter"/></a></li>
-                        <li><a href="#"><FontAwesomeIcon icon="fa-brands fa-linkedin"/></a></li>
+                <div className='flex flex-col gap-3'>
+                    <p className=''>Find us in social media</p>
+                    <ul className='flex items-center gap-4'>
+                        <li><a href="#" className='border border-[#ACBAC4]-solid rounded-full p-1'><FontAwesomeIcon icon="fa-brands fa-instagram"/></a></li>
+                        <li><a href="#" className='border border-[#ACBAC4]-solid rounded-full p-1'><FontAwesomeIcon icon="fa-brands fa-facebook"/></a></li>
+                        <li><a href="#" className='border border-[#ACBAC4]-solid rounded-full p-1'><FontAwesomeIcon icon="fa-brands fa-twitter"/></a></li>
+                        <li><a href="#" className='border border-[#ACBAC4]-solid rounded-full p-1'><FontAwesomeIcon icon="fa-brands fa-linkedin"/></a></li>
                     </ul>
                 </div>
                 <div></div>
