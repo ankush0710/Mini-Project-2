@@ -3,7 +3,9 @@ import React from 'react';
 const Players = () => {
     return(
         <>
-        <h1>This is Players page</h1>
+        <div>
+            <h1>This is Player's detail page</h1>
+        </div>
         </>
     )
 }

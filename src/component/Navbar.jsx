@@ -10,7 +10,7 @@ const Navbar = () => {
             </div>
             <div id="navLink">
                 <ul className='flex justify-center items-center gap-4 md:gap-10 md:mx-5'>
-                    <li className='text-[#F6E7BC] font-semibold md:text-xl nav-item'><Link className='nav-link' to={"/Score"}>Input Score</Link></li>
+                    <li className='text-[#F6E7BC] font-semibold md:text-xl nav-item'><Link className='nav-link' to={"/Form"}>Input Score</Link></li>
                     <li className='text-[#F6E7BC] font-semibold md:text-xl nav-item'><Link className='nav-link' to={"/Players"}>Player's section</Link></li>
                 </ul>
             </div>

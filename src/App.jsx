@@ -5,7 +5,7 @@ import {faInstagram, faFacebook, faTwitter, faLinkedin} from '@fortawesome/free-
 import Navbar from './component/Navbar';
 import Footer from './component/Footer';
 import Players from './component/pages/Players';
-import Cards from './component/pages/Cards';
+import InputPage from './component/pages/InputPage';
 
 function App() {
   library.add(faInstagram, faFacebook, faTwitter, faLinkedin);
@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Players />}/>
           <Route path='/Players' element={<Players />}/>
-          <Route path='/Cards' element={<Cards />}/>
+          <Route path='/Form' element={<InputPage />}/>
         </Routes>
         <Footer />
       </BrowserRouter>
