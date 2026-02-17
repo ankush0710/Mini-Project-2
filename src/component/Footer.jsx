@@ -23,7 +23,7 @@ const Footer = () => {
                   href="#"
                   className="border border-[#ACBAC4]-solid rounded-full p-1"
                 >
-                  <FontAwesomeIcon icon="fa-brands fa-instagram" />
+                  <FontAwesomeIcon icon="fa-brands fa-instagram"/>
                 </a>
               </li>
               <li>
